@@ -1,0 +1,441 @@
+	.part{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.part .part-biaoti{
+	border-left: 10px solid #84d4d1;
+	padding-left: 30px;
+	height: 70px;
+}
+.part .part-biaoti h1{
+	line-height: 70px;
+	height: 70px;
+}
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+@media only screen and (min-width:1200px ) {
+
+.tree{
+	width:1280px;
+	position: relative;
+	
+	height: 1300px;
+}
+.tree-left{
+	float: left;
+	z-index: -12;
+	margin-left: 285px;
+}
+.welcome{
+	padding-top:30px ;
+	
+}
+.qianduan{
+	padding-top: 80px;
+	margin-left: 80px;
+}
+.sql{
+	padding-top:60px;
+	margin-left: 80px;
+}
+.left{
+	padding-left: 10px;
+	font-size: 35px;
+	color: #84d4d1;
+}
+.tree-main{
+  position: absolute;
+  top: 10px;
+  left: 617px;
+}
+.tree-right{
+    float: right;
+    margin-right: 197px;
+    z-index: -5;
+}
+.sheji{
+	margin-top:120px ;
+	margin-right:110px ;
+}
+.houduan{
+	padding-top:40px ;
+	margin-right:110px ;
+	
+}
+.right{
+	padding-left: 50px; 
+}
+.tree h2{
+	font-size:35px;
+	color: #84d4d1;
+}
+.infor{
+	padding-top: 60px;
+}
+
+.qianduan-intro,
+.sql-intro{
+	width: 250px;
+	margin-left: 70px;
+}
+.sheji-intro,
+.houduan-intro{
+	width: 300px;
+	margin-left:10px;
+}
+.tree h4{
+	font-size:30px ;
+}
+.tree p{
+	font-size: 24px;
+}
+}
+@media only screen and (min-width:992px ) and (max-width:1200px) {
+
+.tree{
+	width: 860px;
+    position: relative;
+	height: 1300px;
+}
+.tree-left{
+	float: left;
+	z-index: -12;
+	margin-left: 60px;
+}
+.welcome{
+	width: 80%;
+	height:80%;
+	padding-top:30px ;
+}
+.qianduan,.sql{
+	padding-top: 80px;
+}
+
+.left{
+     margin-left: 60px;
+	font-size: 35px;
+	color: #84d4d1;
+}
+.tree-main{
+	position: absolute;
+	top: 10px;
+	left: 350px;
+}
+.tree-right{
+	/*float: left;*/
+    position: absolute;
+    top: 0;
+    right: 47px;
+	z-index: -12;
+
+}
+.sheji{
+	padding-top:80px ;
+	margin-right: 105px;
+}
+.houduan{
+	padding-top:40px ;
+	margin-right: 105px;
+}
+.right{
+    padding-left: 50px;
+  
+}
+.tree h2{
+	font-size:35px;
+	color: #84d4d1;
+}
+.infor{
+	width: 80%;
+	height:80%;
+	padding-top: 60px;
+
+}
+.qianduan-intro,
+.sql-intro{
+	width: 270px;
+	padding-top: 5px;
+	margin-left: 30px;
+}
+.sheji-intro,
+.houduan-intro{
+	width: 320px;
+	margin-left:10px;
+	padding-top: 5px;
+}
+.tree h4{
+	font-size:28px ;
+}
+.tree p{
+	font-size: 25px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.tree{
+	width: 648px;
+	position: relative;
+	height: 1300px;
+}
+.tree-left{
+	float: left;
+	z-index: -12;
+	margin-left: 0px;
+}
+.welcome{
+	width: 65%;
+	height: 65%;
+	padding-top:40px ;
+}
+.qianduan,.sql{
+	width: 65%;
+	height: 65%;
+	padding-top: 80px;
+	margin-left: 70px;
+}
+
+.left{
+	margin-left: 30px;
+	font-size: 35px;
+	color: #84d4d1;
+}
+.tree-main{
+	position: absolute;
+	top: 10px;
+	left: 41%;
+}
+.tree-right{
+	position: absolute;
+	top: 0;
+	right:-80px;
+	z-index: -4;
+}
+.sheji{
+	width: 65%;
+	height: 65%;
+	padding-top:100px ;
+}
+.houduan{
+	width: 65%;
+	height: 65%;
+	padding-top:30px ;	
+}
+.infor{
+	width: 65%;
+	height: 65%;
+	padding-top: 50px;
+}
+.right{
+    margin-left: 50px;
+   
+}
+.tree h2{
+	font-size:35px;
+	color: #84d4d1;
+}
+.sheji-intro,
+.houduan-intro{
+	width: 230px;
+	padding-top: 5px;
+}
+.qianduan-intro,
+.sql-intro{
+	width: 220px;
+	margin-left:70px;
+	padding-top: 5px;
+}
+.tree h4{
+	font-size:28px ;
+}
+.tree p{
+	font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.part{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.tree{
+	width: 320px;
+	margin: 0 auto;
+	position: relative;
+	height: 1070px;
+}
+.tree-left{
+	float: left;
+	z-index: -12;
+}
+.welcome{
+	width: 40%;
+	height: 35%;
+	padding-top:60px ;
+	margin-left: 25px;
+}
+.qianduan,.sql{
+	width: 40%;
+	height: 35%;
+	padding-top: 60px;
+	margin-left: 23px;
+}
+
+.left{
+	margin-left: 10px;
+	font-size: 35px;
+	color: #84d4d1;
+}
+.tree-main{
+	position: absolute;
+	top: 10px;
+	left: 32%;
+}
+.tree-right{
+	position: absolute;
+	top: 0;
+	left: 155px;
+	z-index: -5;
+}
+.tree-main-1{
+	height: 1000px;
+}
+.sheji{
+	width: 75%;
+	height: 75%;
+	padding-top:90px ;
+}
+.houduan{
+	width: 75%;
+	height: 75%;
+	padding-top:50px ;	
+}
+.infor{
+	width: 60%;
+	height: 60%;
+	padding-top: 60px;
+}
+.right{
+   margin-left: 20px;
+}
+.tree h2{
+	font-size:20px;
+	color: #84d4d1;
+}
+.sheji-intro,
+.houduan-intro{
+	width: 120px;
+}
+.sheji-intro,
+.houduan-intro,
+.qianduan-intro,
+.sql-intro{
+	padding-top: 5px;
+}
+.qianduan-intro,
+.sql-intro{
+	width: 120px;
+	padding-left: 10px;
+}
+.tree h4{
+	font-size:20px ;
+}
+.tree p{
+	font-size: 16px;
+}
+}@media only screen and (max-width:320px ) {
+	.part{
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.tree{
+	width: 320px;
+	margin: 0 auto;
+	position: relative;
+	height: 1070px;
+}
+.tree-left{
+	float: left;
+	z-index: -12;
+}
+.welcome{
+	width: 40%;
+	height: 35%;
+	padding-top:60px ;
+	margin-left: 25px;
+}
+.qianduan,.sql{
+	width: 40%;
+	height: 35%;
+	padding-top: 60px;
+	margin-left: 23px;
+}
+
+.left{
+	margin-left: 10px;
+	font-size: 35px;
+	color: #84d4d1;
+}
+.tree-main{
+	position: absolute;
+	top: 10px;
+	left: 32%;
+}
+.tree-right{
+	position: absolute;
+	top: 0;
+	left: 155px;
+	z-index: -5;
+}
+.tree-main-1{
+	height: 1000px;
+}
+.sheji{
+	width: 75%;
+	height: 75%;
+	padding-top:80px ;
+}
+.houduan{
+	width: 75%;
+	height: 75%;
+	padding-top:50px ;	
+}
+.infor{
+	width: 75%;
+	height: 75%;
+	padding-top: 60px;
+}
+.right{
+   margin-left: 20px;
+}
+.tree h2{
+	font-size:20px;
+	color: #84d4d1;
+}
+.sheji-intro,
+.houduan-intro{
+	width: 120px;
+}
+.sheji-intro,
+.houduan-intro,
+.qianduan-intro,
+.sql-intro{
+	padding-top: 5px;
+}
+.qianduan-intro,
+.sql-intro{
+	width: 120px;
+	margin-left: 15px;
+}
+.tree h4{
+	font-size:20px ;
+}
+.tree p{
+	font-size: 16px;
+}

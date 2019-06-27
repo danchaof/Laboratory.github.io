@@ -1,0 +1,89 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	position: relative;
+}
+
+a{
+	
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	text-decoration: none !important;
+}
+li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cb{
+	clear: both;
+}
+
+.beijing{
+	background: #84d4d1;
+}
+@media only screen and (min-width: 769px) {
+	.huidaodingbu img{
+		position: absolute;
+		right: 20px;
+		bottom: 195px;
+		width: 60px;
+		height: 60px;
+	}
+	.footer {
+		margin-top: 10px;
+		background: #84d4d1;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.footer-left {
+		float: left;	
+	}
+	.footer-right {
+		float: right;	
+	}
+	
+	.footer-left p{
+		font-size: 14px;
+	}
+	.yuanzi{
+		clear: both;
+		margin-left: 38%;	 
+	}
+	.yuanzi p{
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+	.nav-wenzi{
+		font-size: 13px;
+	}	
+	.footer{
+		padding-top: 3px;
+		font-size: 13px;
+		background: #84d4d1;
+		padding-left: 7%;
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	.yuanzi{
+		margin-left: 20%;
+	}
+	.yuanzi p{
+		margin: 0;
+	}
+	.huidaodingbu{
+		display: none;
+	}
+}
+

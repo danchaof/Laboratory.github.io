@@ -1,0 +1,55 @@
+.main{
+	width: 900px;
+	height: 850px;
+	margin: 0 auto;
+	background: #dceffe;
+	text-align: center;
+}
+.main h1{
+	padding-top:30px;
+	/*margin: 0 auto;*/
+}
+
+
+
+.mingdan{
+	width: 800px;
+	height: 580px;
+	margin: 15px auto 0 auto;
+	background: #ffffff;
+	border-top: 15px solid #84d4d1;
+}
+table{
+	width:800px;
+}
+table td{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	font-family:"microsoft yahei";
+}
+.red:hover{color:red}
+center {
+	margin-top:0px;
+	font-size:20px;
+	font-family:"microsoft yahei";
+}
+#find{
+	width: 220px;
+	margin-top:36px;
+	margin-left: 610px;
+	border: 2px solid #ccc;
+	background:white;
+	border-radius:6px;
+}
+#sname{
+	width: 170px;
+	border-width: 0;
+}
+#sname:focus{
+	outline:none;
+	box-shadow: none;
+}
+#search{
+	border-radius:0px;
+}

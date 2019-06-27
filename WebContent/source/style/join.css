@@ -1,0 +1,196 @@
+.fs19{
+	font-size: 19px;
+	font-weight: bolder;
+	opacity: .5;
+}
+.jinggao{
+	/*display: none;*/
+	padding-top: 5px;
+	/*width: 280px;*/
+	padding-left: 20px;
+	font-size: 14px;
+	color: red;
+	margin-bottom: 0;
+}
+
+.main{	
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.biaoti {
+	padding-left: 20px;
+}
+.biaoti .kuang {
+	border-left: 10px solid #84d4d1;
+	padding-left: 30px;
+	height: 70px;
+}
+.biaoti .kuang h1 {
+	line-height: 70px;
+	height: 70px;
+}
+.biaoti p {
+	font-size: 20px;
+	padding-left: 40px;
+}
+.ul-xinxi li {
+	margin-bottom: 15px;
+}
+.ul-xinxi input,.ul-xinxi select {
+	padding-left: 40px;
+	font-size: 17px;
+	width: 300px;
+	height: 45px;
+	border-radius: 10px;
+	outline: none;
+}
+.tijiao{
+	cursor: pointer;
+	width: 200px;
+	height: 55px;
+	border-radius: 10px;
+	margin-top: 950px;
+	margin-left: 18%;
+	background: #84D4D1;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	line-height: 55px !important;
+	letter-spacing: 10px;
+}
+
+.zhuyishixiang li{
+	font-size: 15px;
+	margin-top: 3px;
+}
+.zhuyishixiang p{
+	font-size: 15px;
+	font-weight: bolder;
+	margin-top: -5px;
+}
+
+@media only screen and (min-width: 1500px) {
+	.ul-xinxi {
+		padding-left: 18%;
+		padding-right: 18%;
+		list-style: none;
+	}
+	.ul-xinxi textarea {
+		/*!!!!!!!!!!!!宽度*/
+		width: 850px;
+		height: 200px;
+		border-radius: 10px;
+		outline: none;
+		padding: 20px;
+	}
+	.zhuyishixiang ul,h2,p{
+		padding-left: 1%;
+		padding-right: 18%;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+	
+	.ul-xinxi {
+		padding-left: 18%;
+		padding-right: 18%;
+		list-style: none;
+	}
+	.ul-xinxi textarea {
+		/*!!!!!!!!!!!!宽度*/
+		width: 850px;
+		height: 200px;
+		border-radius: 10px;
+		outline: none;
+		padding: 20px;
+		
+	}
+	.zhuyishixiang ul,h2,p{
+		padding-left: 1%;
+		padding-right: 18%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.ul-xinxi{
+		/*//992--1200改了这部分*/
+		padding-left: 10%;
+		padding-right: 10%;
+		list-style: none;
+	}
+	.ul-xinxi textarea{
+		/*!!!!!!!!!!!!宽度*/
+		width: 700px;
+		height: 200px;
+		border-radius: 10px;
+		outline: none;
+		padding: 20px;
+	}
+	.tijiao{
+		margin-left: 10%;
+	}
+	
+	.zhuyishixiang ul,h2,p{
+		padding-left: 1%;
+		padding-right: 10%;
+	}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.ul-xinxi{
+		/*//768--991改了这部分*/
+		padding-left: 5%;
+		padding-right: 5%;
+		list-style: none;
+	}
+	.ul-xinxi textarea{
+		/*!!!!!!!!!!!!宽度*/
+		/*//768--991改了这部分*/
+		width: 600px;
+		height: 200px;
+		border-radius: 10px;
+		outline: none;
+		padding: 20px;
+	}
+	.tijiao{
+		
+		margin-left: 5%;
+	}
+	.zhuyishixiang ul,h2,p{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.main{
+		overflow: hidden;
+		margin: 0 auto;
+		padding-left: 5%;
+		padding-right: 5%;	
+	}
+	.ul-xinxi li{
+		list-style: none;
+		float: none;
+		margin-bottom: 15px;
+	}
+	.ul-xinxi textarea{
+		width: 300px;
+		height: 200px;
+		border-radius: 10px;
+		outline: none;
+		padding: 20px;
+	}
+	.tijiao{
+		margin-top: 0;
+		line-height: 55px;
+		margin-left: 0;
+	}
+	
+}

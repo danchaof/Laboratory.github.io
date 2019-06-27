@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	  <title>信息技术实验室</title>
+
+	  <!-- Bootstrap -->
+		<!--公用樣式表-->
+	  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="public/style/common.css" />
+	  
+	  <!--個人樣式表-->
+	  <link rel="stylesheet" type="text/css" href="source/style/join.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	  <![endif]-->
+</head>
+			
+	<body>
+		<div class="huidaodingbu"><a href="#"><img src="public/images/0.1.png"/></a></div>
+		<div class="header">
+		    <nav class="navbar navbar-default beijing ">
+			    <div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					 	<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						     	<span class="sr-only">Toggle navigation</span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							</button>
+							<img class="navbar-brand" src="public/images/3.png" />
+							<a class="navbar-brand nav-wenzi" href="#">Information Technology Lab</a>
+						</div>
+		
+					<!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+								<li>
+										<a href="index.html">首页</a>
+								</li>
+								<li>
+										<a href="department.html">部门介绍</a>
+								</li>
+								<li>
+										<a href="about.html">关于我们</a>
+								</li>
+								<li>
+										<a href="join.html">加入我们</a>
+								</li>
+	
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+					<!-- /.container-fluid -->
+		    </nav>
+		</div>
+			  
+		<div>
+			<div class="main">
+				<div class="biaoti">
+					<div class="kuang">
+						<h1>加入我们</h1>
+					</div>
+					<p>请认真填写以下报告内容，确保信息真实有效。</p>
+				</div>
+				
+				<ul class="ul-xinxi form-group">
+					<li class="fl">
+						<p class="fs19">姓名：</p>
+						<input id="name" type="text" name="#" value="" class="form-control" />
+						<p class="jinggao"></p>
+					</li>
+					<li class="fr">
+						<p class="fs19">性别：</p>
+						
+						<select id="sex" class="form-control" required>
+						<option selected="selected" value =""  disabled>---请选择---</option>
+						  <option value ="男">男</option>
+						  <option value ="女">女</option>
+						</select>
+						
+
+						<p class="jinggao"></p>
+					</li>
+					<li class="fl cb">
+						<p class="fs19">专业班级：</p>
+						
+						<select id="zy" class="form-control" required>
+						<option selected="selected" value =""  disabled>---请选择---</option>
+						  <option value ="17级计算机科学与技术">17级计算机科学与技术</option>
+						  <option value ="17级网络工程">17级网络工程</option>
+						  <option value ="17级物联网工程">17级物联网工程</option>
+						  <option value ="17级软件工程">17级软件工程</option>
+						  <option value ="17级软件技术">17级软件技术</option>
+						  <option value ="17级计算机应用技术">17级计算机应用技术</option>
+						  <option value ="18级计科（专）">18级（专升本）</option>
+						</select>
+						<p class="jinggao"></p>
+					</li>
+					<li class="fr">
+						<p class="fs19">想要加入的部门：</p>
+						<select id="bm" class="form-control" required>
+						<option selected="selected" value =""  disabled>---请选择---</option>
+						  <option value ="前端部">前端部</option>
+						  <option value ="后端部">后端部</option>
+						  <option value ="设计部">设计部</option>
+						  <option value ="数据库部">数据库部</option>
+						</select>
+						<p class="jinggao"></p>
+					</li>
+					<li class="fl cb">
+						<p class="fs19">学号</p>
+						<input id="xh" type="text" name="#" value="" class="form-control"/>
+						<p class="jinggao"></p>
+					</li>
+					<li class="fr">
+						<p class="fs19">tel（请确保填写正确）</p>
+						<input id="tel" type="text" name="#" value="" class="form-control"/>
+						<p class="jinggao"></p>
+					</li>
+					<li class="fl cb">
+						<p class="fs19">专业技能</p>
+						<textarea id="jn" class="form-control" required></textarea>
+						<p class="jinggao">500字以内</p>
+					</li>
+					<li class="fl cb">
+						<p class="fs19">自我能力描述</p>
+						<textarea id="nl" class="form-control" required></textarea>
+						<p class="jinggao">500字以内</p>
+					</li>		
+				</ul>
+	
+				<div class="tijiao" id="tijiao">提交</div>
+				<!--注意事项-->
+				<div class="zhuyishixiang">
+					<h2>注意事项</h2>
+					<ul>
+						<li>1.你必须是安阳工学院计算机科学与信息工程学院大二的在校生</li>
+						<li>2.你必须有极强的自我学习能力，能够做到没有人强迫也能自己学习，做个学习的主人</li>
+						<li>3.你得有持续的学习热情激励自己不怕困难，同事，做事情要有耐心，遇到困难时不畏惧</li>
+						<li>4.你得有C语言或者其他高级程序设计语言基础</li>
+						<li>5.对html、css、javascript或者java有了解的优先考虑</li>
+						<li>6.有独立做过小项目的优先考虑</li>
+					</ul>
+					<p>如有以上加分项请在简历上标明清楚</p>
+					<p>如对我们实验室感兴趣，请于2018年9月22日(周六)之前提交表格，于2018年9月22日(周六)晚上7点来本实验室面试<p>
+				</div>
+		
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="footer beijing">
+			<div class="footer-left">
+				<h3>联系方式：</h3>
+				<p>邮箱：894517069@qq.com</p>
+				<p>邮箱：1557134371@qq.com</p>
+				<p>地址：安阳工学院-计科学院信息技术实验室 604</p>
+			</div>
+			<div class="footer-right">
+				<h3>友情链接：</h3>
+				<p>
+						<a href="http://jwgl.ayit.edu.cn/">安阳工学院官网</a>
+				</p>
+				<p>
+						<a href="http://jwc.ayit.edu.cn/">安阳工学院教务处</a>
+				</p>
+				<p>地址：安阳工学院计算机科学与信息工程学院</p>
+			</div>
+			<div class="yuanzi">
+				<p>@安阳工学院信息技术实验室</p>
+			</div>
+		</div>
+		    
+		
+	    <!--jQuery (necessary for Bootstrap's JavaScript plugins)--> 
+	    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+	     <!--Include all compiled plugins (below), or include individual files as needed--> 
+	    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <script src="source/javascript/join.js"></script>
+	</body>
+</html>
